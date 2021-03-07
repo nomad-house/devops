@@ -1,1 +1,3 @@
-devops.ts
+node_modules
+dist
+cdk.out
