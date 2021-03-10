@@ -1,6 +1,6 @@
 {
   "name": "nomad-devops",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Full Ops and Devops platform targeted at digital nomads and startups. Utilizes AWS platform and CloudFormation to set up everything with IaaC",
   "scripts": {
     "build": "echo 'building'",
