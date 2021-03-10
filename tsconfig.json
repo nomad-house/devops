@@ -1,15 +1,4 @@
 {
-  "include": [
-    "package.json",
-    "index.ts",
-    "webpack.config.ts",
-    "test.ts",
-    "config/**/*",
-    "templates/**/*",
-    "bin/**/*",
-    "lib/**/*",
-    "src/**/*"
-  ],
   "exclude": ["node_modules"],
   "compilerOptions": {
     "lib": ["ESNext", "ESNext.AsyncIterable", "ES2020"],
@@ -26,7 +15,7 @@
     "emitDecoratorMetadata": true,
     "baseUrl": ".",
     "outDir": "dist",
-    "types": ["node"],
+    "types": ["node", "jest"],
     "typeRoots": ["node_modules/@types"]
   }
 }
