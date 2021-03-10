@@ -7,7 +7,7 @@
     "lint": "node_modules/.bin/eslint --fix .",
     "test": "node_modules/.bin/jest --passWithNoTests",
     "preversion": "npm run lint && npm run test && npm run build && git add -A",
-    "postversion": "git push && git push --tags && npm publish --dry-run",
+    "postversion": "git push && git push --tags && npm publish",
     "node": "node",
     "ts": "npm run node -- -r ts-node/register",
     "debug": "npm run ts --inspect-brk"
